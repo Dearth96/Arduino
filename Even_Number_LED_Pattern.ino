@@ -1,5 +1,5 @@
-const int a = 3;
-const int k[a] = {11,12,13};
+const int a = 3; // The number depends on the number of LED's attached//
+const int k[a] = {11,12,13};// the number should be the pins connected to it//
 void setup(){
   for(int i = 0; i<a;i++){
   pinMode(k[i], OUTPUT);
